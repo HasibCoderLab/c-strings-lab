@@ -21,14 +21,18 @@ void string(char arr[]){
 }
 
 //   👉👉  🔹🔹  Question  2️⃣  Ask the user to enter  their firstName & print in back  to them
+//                🌟also try this with their fullName
 
 
 #include <stdio.h>
 int main(){
-    int name[20] ;
-    printf("Enter Your Firstname : ");
-    scanf("%s" , name);
-    printf("Your name is %s " , name);
+    // char name[20] ;
+    // printf("Enter Your Firstname : ");
+    // scanf("%s" , name);
+    // printf("Your name is %s " , name);
+    char str[100] ;
+    fgets(str , 100 , stdin);
+    puts(str);
     return 0;
 }
 
