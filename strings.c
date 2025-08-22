@@ -6,7 +6,7 @@
 //     return 0;
 // }
 // ⭐⭐   String Format  specificr
- 
+
 // #include <stdio.h>
 // int main(){
 //     char name [40] ;
@@ -17,5 +17,22 @@
 //     return 0;
 // }
 
-// Emoji 
+// 🔲
+
+#include <stdio.h>
+int main()
+{
+    char *canChange = "Hello Wrold";
+    puts(canChange);
+    char *change = "Hello";
+    puts(change);
+    return 0;
+}
+
+// #include <stdio.h>
+// int main(){
+// return 0;
+// }
+
+// Emoji
 // // 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ 6️⃣ 7️⃣ 8️⃣ 9️⃣ 🔟 🔳 🔲 ⭐ 🌟 ✨ 💫 🌠 🌌 🟊 🌠 🌟🌟 ⚡ 🔔 🎯  🎖️ 🏆 🛑
