@@ -28,7 +28,7 @@
 //     puts(change);
 //     return 0;
 // }
-// 🔳 🔲    => add <string.h>   || strlen 
+// 🔳 🔲    => add <string.h>   |🌟| strlen 
 // #include <stdio.h>
 // #include <string.h>
 // int main(){
@@ -38,17 +38,30 @@
 //   return 0;
 // }
 
-// 🔳 🔲    => add <string.h>   || strlen 
 
+
+// 🔳 🔲    => add <string.h>   |🌟| strcpy 
+// #include <stdio.h>
+// #include <string.h>
+// int main(){
+//     char  oldStr[] = "Oldstr";
+//     char newStr[] = "NewStr";
+//     strcpy(newStr , oldStr);
+//     printf(newStr);
+// return 0;
+// }
+
+// 🔳 🔲    => add <string.h>   |🌟| strcat 
 #include <stdio.h>
 #include <string.h>
 int main(){
-    char  oldStr[] = "Oldstr";
-    char newStr[] = "NewStr";
-    strcpy(newStr , oldStr);
-    printf(newStr);
-return 0;
+char name1[20] = "Programming ";
+char name2[] = "language ";
+strcat(name1 , name2);
+printf(name1); 
+    return 0;
 }
+
 
 
 // #include <stdio.h>
