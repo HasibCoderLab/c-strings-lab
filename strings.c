@@ -19,15 +19,15 @@
 
 // 🔲
 
-#include <stdio.h>
-int main()
-{
-    char *canChange = "Hello Wrold";
-    puts(canChange);
-    char *change = "Hello";
-    puts(change);
-    return 0;
-}
+// #include <stdio.h>
+// int main()
+// {
+//     char *canChange = "Hello Wrold";
+//     puts(canChange);
+//     char *change = "Hello";
+//     puts(change);
+//     return 0;
+// }
 
 // #include <stdio.h>
 // int main(){

@@ -1,39 +1,65 @@
 // /  // 👉👉  🔹🔹  Question 1️⃣    create a string firstName & lastName  
 // to sore details of user  & print all characters using  a loop 
 
-#include <stdio.h>
-void string(char arr[]);
-int main(){
-    char firstName [] = "coder";
-    char lastName [] = "Boy";
-    string(firstName); // function call
-    string(lastName); // last name
-    return 0;
-}
+// #include <stdio.h>
+// void string(char arr[]);
+// int main(){
+//     char firstName [] = "coder";
+//     char lastName [] = "Boy";
+//     string(firstName); // function call
+//     string(lastName); // last name
+//     return 0;
+// }
 // function Definition
-void string(char arr[]){
-    for (int  i = 0; arr[i] != '\0'; i++) // spacial  in  loop => arr[i]   | for string 
-    {
-        printf("%c" , arr[i]);
-    }
-            printf("\n");
+// void string(char arr[]){
+//     for (int  i = 0; arr[i] != '\0'; i++) // spacial  in  loop => arr[i]   | for string 
+//     {
+//         printf("%c" , arr[i]);
+//     }
+//             printf("\n");
 
-}
+// }
 
 //   👉👉  🔹🔹  Question  2️⃣  Ask the user to enter  their firstName & print in back  to them
 //                🌟also try this with their fullName
 
 
-#include <stdio.h>
-int main(){
+// #include <stdio.h>
+// int main(){
     // char name[20] ;
     // printf("Enter Your Firstname : ");
     // scanf("%s" , name);
     // printf("Your name is %s " , name);
-    char str[100] ;
-    fgets(str , 100 , stdin);
-    puts(str);
+//     char str[100] ;
+//     fgets(str , 100 , stdin);
+//     puts(str);
+//     return 0;
+// }
+
+//   👉👉  🔹🔹  Question  3️⃣  make a  program thats input s user's name & print its length;
+
+
+#include <stdio.h>
+int lengthStr(char arr[]);
+
+int main(){
+    char name[100];
+    fgets(name , 100 , stdin) ;
+    printf("Length is %d"  , lengthStr(name));
+    printf("\n");
     return 0;
+}
+
+// Fucntion Definition 
+int lengthStr(char arr[]){
+int count = 0 ;
+for (int  i = 0;arr[i] !='\0'; i++)
+{
+     count++;
+
+}
+return  count-1 ; 
+ 
 }
 
 
