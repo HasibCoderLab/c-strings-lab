@@ -39,29 +39,39 @@
 //   👉👉  🔹🔹  Question  3️⃣  make a  program thats input s user's name & print its length;
 
 
-#include <stdio.h>
-int lengthStr(char arr[]);
+// #include <stdio.h>
+// int lengthStr(char arr[]);
 
-int main(){
-    char name[100];
-    fgets(name , 100 , stdin) ;
-    printf("Length is %d"  , lengthStr(name));
-    printf("\n");
-    return 0;
-}
+// int main(){
+//     char name[100];
+//     fgets(name , 100 , stdin) ;
+//     printf("Length is %d"  , lengthStr(name));
+//     printf("\n");
+//     return 0;
+// }
 
-// Fucntion Definition 
-int lengthStr(char arr[]){
-int count = 0 ;
-for (int  i = 0;arr[i] !='\0'; i++)
-{
-     count++;
+// // Fucntion Definition 
+// int lengthStr(char arr[]){
+// int count = 0 ;
+// for (int  i = 0;arr[i] !='\0'; i++)
+// {
+//      count++;
 
-}
-return  count-1 ; 
+// }
+// return  count-1 ; 
  
-}
+// }
 
+// 👉👉  🔹🔹    add 2.0 version of  3️⃣rd problem
+
+ #include <stdio.h>
+ #include <string.h>
+int main(){
+    char name[] = " Code-Lover" ;
+    int length = strlen(name);
+    printf("length is %d\n" , length); 
+   return 0;
+}
 
 // #include <stdio.h>
 // int main(){
