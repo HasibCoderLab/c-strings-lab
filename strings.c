@@ -28,6 +28,28 @@
 //     puts(change);
 //     return 0;
 // }
+// 🔳 🔲    => add <string.h>   || strlen 
+// #include <stdio.h>
+// #include <string.h>
+// int main(){
+//    char name[] = " Code-Lover" ;
+//    int length = strlen(name);
+//    printf("length is %d\n" , length); 
+//   return 0;
+// }
+
+// 🔳 🔲    => add <string.h>   || strlen 
+
+#include <stdio.h>
+#include <string.h>
+int main(){
+    char  oldStr[] = "Oldstr";
+    char newStr[] = "NewStr";
+    strcpy(newStr , oldStr);
+    printf(newStr);
+return 0;
+}
+
 
 // #include <stdio.h>
 // int main(){
