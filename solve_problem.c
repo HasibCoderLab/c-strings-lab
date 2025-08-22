@@ -1,4 +1,4 @@
-// /  // 👉👉  🔹🔹  Question 1   create a string firstName & lastName  
+// /  // 👉👉  🔹🔹  Question 1️⃣    create a string firstName & lastName  
 // to sore details of user  & print all characters using  a loop 
 
 #include <stdio.h>
@@ -20,7 +20,17 @@ void string(char arr[]){
 
 }
 
+//   👉👉  🔹🔹  Question  2️⃣  Ask the user to enter  their firstName & print in back  to them
 
+
+#include <stdio.h>
+int main(){
+    int name[20] ;
+    printf("Enter Your Firstname : ");
+    scanf("%s" , name);
+    printf("Your name is %s " , name);
+    return 0;
+}
 
 
 // #include <stdio.h>

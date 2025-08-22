@@ -5,7 +5,8 @@
 //     printf("\n");
 //     return 0;
 // }
-// ⭐⭐   String Format  Specificr 
+// ⭐⭐   String Format  specificr
+ 
 #include <stdio.h>
 int main(){
     char name [40] ;
