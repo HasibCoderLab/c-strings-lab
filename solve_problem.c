@@ -12,7 +12,7 @@ int main(){
 }
 // function Definition
 void string(char arr[]){
-    for (int  i = 0; arr[i] != '\0'; i++)
+    for (int  i = 0; arr[i] != '\0'; i++) // spacial  in  loop => arr[i]   | for string 
     {
         printf("%c" , arr[i]);
     }
