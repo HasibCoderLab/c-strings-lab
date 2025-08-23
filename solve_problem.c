@@ -72,6 +72,25 @@ int main(){
     printf("length is %d\n" , length); 
    return 0;
 }
+// 👉👉  🔹🔹  question 4️⃣  take a string  input from the user using %c
+
+
+#include <stdio.h>
+int main(){
+    char str[120];
+    char ch;
+    int i = 0;
+    while (ch != '\0')
+    {
+      scanf("%c" , &ch);
+       str[i] =  ch;
+       i++; 
+    }
+    str[i] = "/0";
+   puts(str);
+    
+    return 0;
+}
 
 // #include <stdio.h>
 // int main(){
