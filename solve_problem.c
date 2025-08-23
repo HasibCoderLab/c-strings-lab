@@ -64,14 +64,14 @@
 
 // 👉👉  🔹🔹    add 2.0 version of  3️⃣rd problem
 
- #include <stdio.h>
- #include <string.h>
-int main(){
-    char name[] = " Code-Lover" ;
-    int length = strlen(name);
-    printf("length is %d\n" , length); 
-   return 0;
-}
+//  #include <stdio.h>
+//  #include <string.h>
+// int main(){
+//     char name[] = " Code-Lover" ;
+//     int length = strlen(name);
+//     printf("length is %d\n" , length); 
+//    return 0;
+// }
 // 👉👉  🔹🔹  question 4️⃣  take a string  input from the user using %c
 
 
@@ -80,13 +80,13 @@ int main(){
     char str[120];
     char ch;
     int i = 0;
-    while (ch != '\0')
+    while (ch != '\n')
     {
       scanf("%c" , &ch);
        str[i] =  ch;
        i++; 
     }
-    str[i] = "/0";
+    str[i] = '\0';
    puts(str);
     
     return 0;
