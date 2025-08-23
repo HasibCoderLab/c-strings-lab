@@ -74,22 +74,22 @@
 // }
 // 👉👉  🔹🔹  question 4️⃣  take a string  input from the user using %c
 
-#include <stdio.h>
-int main(){
-char  srt[15];
-char ch;
-int i = 0;
-while (ch != '\n')
-{
-   scanf("%c" , &ch);
-   srt[i] = ch;
-    i++;
-}
-srt[i] = '\0';
-puts(srt);
+// #include <stdio.h>
+// int main(){
+// char  srt[15];
+// char ch;
+// int i = 0;
+// while (ch != '\n')
+// {
+//    scanf("%c" , &ch);
+//    srt[i] = ch;
+//     i++;
+// }
+// srt[i] = '\0';
+// puts(srt);
 
-    return 0;
-}
+//     return 0;
+// }
 
 // #include <stdio.h>
 // int main(){
@@ -108,8 +108,29 @@ puts(srt);
 //     return 0;
 // }
 
-// #include <stdio.h>
-// int main(){
-    // return 0;
-// }
+
+//  |🌟 ✨|  salting 
+
+// // 👉👉  🔹🔹  question  5️⃣  find the salted from a password  entered by the user  
+//  if the salt "123"  & added that the end
+
+#include <stdio.h>
+#include <string.h>
+void salting(char password []);
+int main(){
+    char password[100] ;
+    scanf("%s" , password);
+    salting(password) ; 
+
+    return 0;
+}
+void salting(char password []){
+  char salt []  = "123 ";
+ char newPass[200];
+ strcpy(newPass , password); //  newPass =  something
+ strcat( newPass , salt); // new pass = something   + 123  || strcat =   + 
+puts(newPass);
+
+
+}
 // 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ 6️⃣ 7️⃣ 8️⃣ 9️⃣ 🔟
