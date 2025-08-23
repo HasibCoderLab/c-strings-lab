@@ -51,15 +51,30 @@
 // return 0;
 // }
 
-// 🔳 🔲    => add <string.h>   |🌟| strcat 
+// // 🔳 🔲    => add <string.h>   |🌟| strcat 
+// #include <stdio.h>
+// #include <string.h>
+// int main(){
+// char name1[20] = "Programming ";
+// char name2[] = "language ";
+// strcat(name1 , name2);
+// printf(name1); 
+//     return 0;
+// }
+
+
+// 🔳 🔲    => add <string.h>   |🌟| strcmp
+
+
+
 #include <stdio.h>
 #include <string.h>
 int main(){
-char name1[20] = "Programming ";
-char name2[] = "language ";
-strcat(name1 , name2);
-printf(name1); 
-    return 0;
+    char name1 [] = "Coder";
+    char name2 [] = "boy";
+    printf("%d\n", strcmp(name2 , name1));
+
+return 0;
 }
 
 
