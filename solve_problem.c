@@ -132,27 +132,50 @@
 // //  👉👉  🔹🔹  question 6️⃣  write a fuction named slice , which takes
 //  a string & returns sclice from string  from index n to m
 
+// #include <stdio.h>
+// void sclice(char str[], int n, int m);
+// int main()
+// {
+//     char str[] = "Coder Boy";
+//     sclice(str, 3, 6); // Function call
+//     return 0;
+// }
+
+// //  Function Definition
+// void sclice(char str[], int n, int m)
+// {
+//     char newStr[45];
+//     int j = 0;
+//     for (int i = n; i <= m; i++, j++)
+//     {
+//         newStr[j] = str[i];
+//     }
+//     newStr[j] = '\0';
+
+//     puts(newStr);
+// }
+
+// //  👉👉  🔹🔹  question  7️⃣  write a function  to count occurrence of vowels in a  string
 #include <stdio.h>
-void sclice(char str[], int n, int m);
+int countVowels(char str[]);
 int main()
 {
-    char str[] = "Coder Boy";
-    sclice(str, 3, 6); // Function call
+    char str [] = "Education";
+    printf("Vowel are : %d\n" , countVowels(str)); // Function call ;
     return 0;
 }
-
 //  Function Definition
-void sclice(char str[], int n, int m)
+int countVowels(char str[])
 {
-    char newStr[45];
-    int j = 0;
-    for (int i = n; i <= m; i++, j++)
+    int count = 0;
+    for (int i = 0; str[i] != '\0'; i++)
     {
-        newStr[j] = str[i];
+        if (str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || str[i] == 'o' || str[i] == 'u')
+        {
+           count ++;
+        }
     }
-    newStr[j] = '\0';
-
-    puts(newStr);
+    return count ;
 }
 
 // 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ 6️⃣ 7️⃣ 8️⃣ 9️⃣ 🔟
