@@ -74,23 +74,39 @@
 // }
 // 👉👉  🔹🔹  question 4️⃣  take a string  input from the user using %c
 
-
 #include <stdio.h>
 int main(){
-    char str[120];
-    char ch;
-    int i = 0;
-    while (ch != '\n')
-    {
-      scanf("%c" , &ch);
-       str[i] =  ch;
-       i++; 
-    }
-    str[i] = '\0';
-   puts(str);
-    
+char  srt[15];
+char ch;
+int i = 0;
+while (ch != '\n')
+{
+   scanf("%c" , &ch);
+   srt[i] = ch;
+    i++;
+}
+srt[i] = '\0';
+puts(srt);
+
     return 0;
 }
+
+// #include <stdio.h>
+// int main(){
+//     char str[120];
+//     char ch;
+//     int i = 0;
+//     while (ch != '\n')
+//     {
+//       scanf("%c" , &ch);
+//        str[i] =  ch;
+//        i++; 
+//     }
+//     str[i] = '\0';
+//    puts(str);
+    
+//     return 0;
+// }
 
 // #include <stdio.h>
 // int main(){
