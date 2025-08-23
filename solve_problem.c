@@ -156,26 +156,51 @@
 // }
 
 // //  👉👉  🔹🔹  question  7️⃣  write a function  to count occurrence of vowels in a  string
+
+// #include <stdio.h>
+// int countVowels(char str[]);
+// int main()
+// {
+//     char str [] = "Education";
+//     printf("Vowel are : %d\n" , countVowels(str)); // Function call ;
+//     return 0;
+// }
+// //  Function Definition
+// int countVowels(char str[])
+// {
+//     int count = 0;
+//     for (int i = 0; str[i] != '\0'; i++)
+//     {
+//         if (str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || str[i] == 'o' || str[i] == 'u')
+//         {
+//            count ++;
+//         }
+//     }
+//     return count ;
+// }
+
+// //  👉👉  🔹🔹question 8️⃣ check a given Character  is present  in a string  or not 
 #include <stdio.h>
-int countVowels(char str[]);
-int main()
-{
-    char str [] = "Education";
-    printf("Vowel are : %d\n" , countVowels(str)); // Function call ;
+void checkStr(char str [] , char ch ) ;
+int main(){
+   char str [] = "Coder Boy "; 
+   char ch = 'B';
+   checkStr(str , ch);
     return 0;
 }
-//  Function Definition
-int countVowels(char str[])
-{
-    int count = 0;
+void checkStr(char str [] , char ch ) {
     for (int i = 0; str[i] != '\0'; i++)
     {
-        if (str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || str[i] == 'o' || str[i] == 'u')
-        {
-           count ++;
-        }
+       if (str[i] == ch)
+       {
+        printf("Character is present \n");
+        return ;
+       }
+       
     }
-    return count ;
+    printf("Character is Not  present \n");
+
+    
 }
 
 // 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ 6️⃣ 7️⃣ 8️⃣ 9️⃣ 🔟
